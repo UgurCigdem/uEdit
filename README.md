@@ -415,7 +415,17 @@ uEdit bringt eine umfangreiche Git-Integration mit — Branch-Wechsel, Commit, P
 - Ist der lokale Branch synchron, ahead, behind oder diverged?
 - Gibt es offene Pull Requests?
 
+<p align="center">
+  <img src="screenshots/git-status-diagnose.png" alt="Status-Diagnose — Grundstatus, Remote-Verbindung, Sync-Zustand und Pull Requests auf einen Blick">
+  <br><em>Status-Diagnose: Grundstatus, Remote-Verbindung, GitHub-Account, Sync-Zustand und offene Pull Requests auf einen Blick</em>
+</p>
+
 **Änderungen committen:** Die *Changes*-Ansicht listet alle modifizierten Dateien mit Diff-Statistik (`+39 -0`). Auswahl pro Datei per Checkbox oder **Stage All**, dann Commit-Nachricht eingeben und **Commit Tracked** klicken. Der letzte Commit lässt sich mit einem Klick rückgängig machen (Änderungen bleiben erhalten). Über das Kontextmenü lässt sich eine Datei auch **aus dem Repo entfernen** (untracken), ohne sie von der Festplatte zu löschen.
+
+<p align="center">
+  <img src="screenshots/git-commit-push.png" alt="Git-Explorer — geänderte Dateien, Commit-Nachricht, Commit- und Push-Button">
+  <br><em>Git-Explorer: geänderte Dateien mit Diff-Statistik, Commit-Nachricht sowie Commit- und Push-Schaltfläche</em>
+</p>
 
 **Fehler immer sichtbar:** Schlägt ein Push, Fetch oder Pull fehl, zeigt uEdit die vollständige Git-Ausgabe in einem **kopierbaren Tab** statt einer kryptischen Meldung — so weißt du genau, was schieflief.
 
@@ -463,7 +473,12 @@ So bringst du jeden Bereich genau auf die Größe, die du brauchst — der File-
 - **Windows:** Einträge werden direkt in der Benutzer-Registry gepflegt.
 - **Linux:** uEdit verwaltet einen eigenen Block in der `~/.bashrc`.
 
-Ordner mit einem Klick zum PATH hinzufügen oder entfernen — praktisch, um eigene Skripte oder Werkzeuge systemweit aufrufbar zu machen.
+Ordner mit einem Klick zum PATH hinzufügen oder entfernen — praktisch, um eigene Skripte oder Werkzeuge systemweit aufrufbar zu machen. Eigene Schaltflächen fügen **uEdit** selbst und die mitgelieferten **CLI-Tools** direkt zum PATH hinzu; eine eigene Liste zeigt die verwalteten Einträge, darunter der aktuell aktive PATH (nur lesend).
+
+<p align="center">
+  <img src="screenshots/settings-path-management.png" alt="Einstellungen — PATH-Verwaltung mit Schaltflächen für uEdit und CLI-Tools">
+  <br><em>Einstellungen (über das Zahnrad oben rechts): PATH-Verwaltung mit Schaltflächen für uEdit und die CLI-Tools sowie der Liste des aktiven PATH</em>
+</p>
 
 ---
 
